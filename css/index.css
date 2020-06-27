@@ -53,7 +53,7 @@ a {
 
 .content_the {
 	width: 100%;
-	height: 1200px;
+	height: 950px;
 	min-width: 1000px;
 	margin: 0 auto;
 }
@@ -96,6 +96,30 @@ a {
 	height: 100px;
 }
 
+.lun_tt{
+	width: 32.95%;
+    height: 95px;
+    float:  left;
+    line-height: 96px;
+    text-align: center;
+    background:  #044667;
+    border: 1px solid deepskyblue;
+}
+
+
+
+.lun_1{
+	width: 100%;
+    height: 100px;
+	
+}
+
+.lun_tt span a{
+	font-size: 19.5px;
+	color: yellow;
+	
+}
+
 .content_the_c_r {
 	width: 45%;
 	height: 500px;
@@ -105,7 +129,35 @@ a {
 
 .hot {
 	width: 70%;
-	height: 500px;
+	height: 400px;
+	float: left;
+}
+
+.announcement{
+	float: left;
+	width: 30%;
+	height: 400px;
+}
+
+.announcement_t{
+	width: 100%;
+	height:400px ;
+	background: yellow;
+}
+
+.animated1{
+	
+	width: 100%;
+	height:100px ;
+	
+}
+
+.animated2{
+	z-index: 999;
+	width: 100%;
+	height:100px ;
+	border: 1px solid darkcyan;
+	
 }
 
 .hot_top {
@@ -150,6 +202,16 @@ a {
 	height: 429px;
 }
 
+.hot_b{
+	width: 100%;
+	height: 100px;
+}
+
+.hot_b  img{
+	width: 100%;
+	height: 100px;
+}
+
 .hot_bottom_top {
 	width: 85%;
 	height: 49px;
@@ -164,7 +226,7 @@ a {
 
 .hot_bottom_bottom{
 	width: 100%;
-	height: 380px;
+	height: 280px;
 	padding-left: 7.5%;
 }
 
@@ -213,6 +275,13 @@ a {
 .content_r_b img {
 	width: 100%;
 	height: 100%;
+}
+
+.ending{
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/80e52239239607e4536635ac50acebbe.jpg);
+	background-size: 100%;
 }
 
 
