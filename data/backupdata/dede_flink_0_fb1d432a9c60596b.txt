@@ -1,3 +1,0 @@
-INSERT INTO `dede_flink` VALUES('10','1','http://www.baidu.com','百度','','','','1580133623','1','1');
-INSERT INTO `dede_flink` VALUES('12','1','http://www.yanshisan.cn','燕十三','燕十三','','/fj/uploads/flink/g_010.jpg','1580133717','7','1');
-INSERT INTO `dede_flink` VALUES('11','1','http://www.taobao.com','淘宝','','','','1580133661','1','1');
