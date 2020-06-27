@@ -15,6 +15,7 @@
 	<script src="js/jquery.zoomy0.5.min.js" type="text/javascript" charset="utf-8"></script>
 	
 	<body>
+		<!--导航栏-->
 		<div class="header">
 			<div class="hea">
 				<div class="hea_l">
@@ -47,6 +48,7 @@
 				</div>
 			</div>
 		</div>
+		<!--轮播图-->
 		<div class="content">
 			<div class="swiper-container">
 				<div class="swiper-wrapper">
@@ -65,21 +67,26 @@
 				<div class="swiper-button-prev"></div>
 			</div>
 		</div>
+		<!--内容-->
 		<div class="content_the">
 			<div class="content_the_c">
-				<div class="content_l">
-					<img class="animated"  src="img/7bce610d8c188a8ab0b41ba68ca08758.jpg"/>
+				<div class="content_the_c_txt">
+					<p class="animated">内容专区</p>
 				</div>
-				<div class="content_r">
-					<div class="content_r_top">
-						
+				<div class="content_c">
+					<div class="content_l">
+						<img class="animated"  src="img/7bce610d8c188a8ab0b41ba68ca08758.jpg"/>
 					</div>
-					<div class="content_r_b">
-						
+					<div class="content_r">
+						<div class="content_r_top">
+							<img class="animated" src="img/8b14217f484585199f18400f8e32c84b.jpeg"/>
+						</div>
+						<div class="content_r_b">
+							<img class="animated" src="img/b2023fe23f1e78142b066bec46b3ccb4.jpg"/>
+						</div>
 					</div>
-				</div>
-			</div>
-			
+				</div>				
+			</div>			
 		</div>
 	</body>
 </html>
@@ -122,5 +129,7 @@
 	};
 
 	ani("content_l", "bounceInRight", "bounceInLeft"); //从下往上
-	
+	ani("content_r_top", "bounceInLeft", "bounceInRight"); //从左往右
+	ani("content_r_b", "bounceInLeft", "bounceInRight"); //从左往右content_the_c_txt
+	ani("content_the_c_txt", "fadeInDownBig", "fadeInDownBig") //从上往下
 </script>
