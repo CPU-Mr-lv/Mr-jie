@@ -6,7 +6,7 @@
 .header {
 	width: 100%;
 	height: 70px;
-	background-color: rgb(13, 13, 13,0.7);
+	background-color: rgb(13, 13, 13, 0.7);
 	min-width: 1200px;
 }
 
@@ -52,70 +52,83 @@ a {
 	height: 800px;
 }
 
-.content_the{
+.content_the {
 	width: 100%;
 	height: 1200px;
 	min-width: 1000px;
 	margin: 0 auto;
 }
-.content_the_c{
+
+.content_the_c {
 	width: 80%;
 	height: 400px;
 	margin: 0 auto;
 }
-.content_the_c_txt{
-	width:100%;
+
+.content_the_c_txt {
+	width: 100%;
 	height: 600px;
 	margin: 0 auto;
 }
-.content_the_c_txt p{
+
+.content_the_c_txt p {
 	width: 100%;
 	height: 50px;
 	text-align: center;
 	font: "微软雅黑";
-	font-size: 30px;line-height: 50px;
+	font-size: 30px;
+	line-height: 50px;
 }
-.content_the_c_l{
+
+.content_the_c_l {
 	width: 55%;
 	height: 400px;
 }
-.content_the_c_l img{
+
+.content_the_c_l img {
 	width: 100%;
 	height: 400px;
 }
-.content_the_c_r{
-	
-}
-.content_l{
+
+.content_the_c_r {}
+
+.content_l {
 	width: 55%;
 	height: 400px;
 	float: left;
 }
-.content_l img{
+
+.content_l img {
 	width: 100%;
 	height: 400px;
 }
-.content_r{
+
+.content_r {
 	width: 45%;
 	height: 400px;
-	float:  left ;
+	float: left;
 }
-.content_r_top{
+
+.content_r_top {
 	width: 100%;
 	height: 200px;
 }
-.content_r_b{
+
+.content_r_b {
 	width: 100%;
 	height: 200px;
 }
-.content_r_top img{
+
+.content_r_top img {
 	width: 100%;
 	height: 100%;
 }
-.content_r_b img{
+
+.content_r_b img {
 	width: 100%;
 	height: 100%;
 }
+
 
 /*轮播图*/
 
