@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html class=" ">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content="[field:global.cfg_Enter/]">
+		<meta name="description" content="{dede:global.cfg_webname/}">
+		<meta name="baidu-site-verification" content="Hi3BgTRLvt">
+		<title>{dede:global.cfg_webname/}</title>
+		<link href="{dede:global.cfg_templets_skin/}/image/favicon.ico" rel="shortcut icon">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/font-awesome.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/layui.css">
+		<link href="{dede:global.cfg_templets_skin/}/style/gloable.css" rel="stylesheet">
+		<link href="{dede:global.cfg_templets_skin/}/style/blog.css" rel="stylesheet">
+		<link id="layuicss-layer" rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/layer.css" media="all">
+		<script src="{dede:global.cfg_templets_skin/}/style/push.js"></script>
+		<script src="{dede:global.cfg_templets_skin/}/style/hm.js"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "{dede:global.cfg_indexurl/}";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+
+	</head>
+
+	<body>
+		{dede:include filename="header.htm"/}
+		<div class="doc-container" id="doc-container">
+
+			<div class="container-fixed">
+				<input type="hidden" value="0" id="blogtypeid">
+				<div class="col-content">
+					<div class="inner">
+						<article class="article-list bloglist" id="LAY_bloglist" data-count="15" data-pagesize="10" data-pagecount="2" data-type="0">
+							{dede:arclist row='16' titlelen='80' orderby ='click' typeid='1'  }
+							<section class="article-item zoomIn article">
+								<div class="fc-flag">[field:softrank function='GetRankStar(@me)'/]</div>
+								<h5 class="title">       <span class="fc-blue">[field:source/]</span>       <a href="[field:arcurl/]" style="width: 700px;">[field:title/]</a>   </h5>
+								<div class="time"> <span class="day">[field:pubdate function="MyDate('d H:i',@me)"/]</span> <span class="month fs-18">[field:pubdate function="MyDate('m ',@me)"/]<span class="fs-14">月</span></span> <span class="year fs-18 ml10">[field:pubdate function="MyDate('Y H:i',@me)"/]</span> </div>
+								<div class="content">
+									<a href="[field:arcurl/]" class="cover img-light"> <img src="[field:picname/]"> </a>[field:description /]</div>
+								<aside class="f-oh footer">
+									<div class="f-fl tags"> <span class="fa fa-tags fs-16"></span>
+										<a class="tag">JavaScript</a>
+									</div>
+									<div class="f-fr"> <span class="read">               <i class="fa fa-eye fs-16"></i>               <i class="num">228</i>           </span> <span class="ml20">               <i class="fa fa-comments fs-16"></i>               <a href="javascript:void(0)" class="num fc-grey">3</a>           </span> </div>
+								</aside>
+							</section>
+							{/dede:arclist}
+							<div class="layui-flow-more">
+								<a href="javascript:;"><cite>加载更多</cite></a>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="col-other">
+					<div class="inner">
+						<div class="other-item" id="categoryandsearch">
+							<div class="search">
+								<label class="search-wrap">
+            <input type="text" id="searchtxt" placeholder="输入关键字搜索">
+            <span class="search-icon">
+                <i class="fa fa-search"></i>
+            </span>
+        </label>
+								<ul class="search-result"></ul>
+							</div>
+							<ul class="category mt20" id="category">
+								<li data-index="0" class="slider"></li>
+								<li data-index="1">
+									<a href="#">热门文章</a>
+								</li>
+								{dede:list pagesize ='5' titlelen='10' row='5' flag='h'}
+								<li data-index="2">
+									<a href="[field:arcurl/]">[field:title/]...</a>
+								</li>
+								{/dede:list}
+							</ul>
+						</div>
+						<!--遮罩-->
+						<div class="blog-mask animated layui-hide"></div>
+						<div class="other-item">
+							<h5 class="other-item-title">推荐文章</h5>
+							<div class="inner">
+								<ul class="hot-list-article">
+									{dede:list pagesize ='5' titlelen='10' row='5' flag='c'}
+									<li data-index="2">
+										<a href="[field:arcurl/]">[field:title/]...</a>
+									</li>
+									{/dede:list}
+								</ul>
+							</div>
+						</div>
+						<div class="other-item">
+							<h5 class="other-item-title">置顶推荐</h5>
+							<div class="inner">
+								<ul class="hot-list-article">
+									{dede:list pagesize ='5' titlelen='10' row='5' flag='a'}
+									<li data-index="2">
+										<a href="[field:arcurl/]">[field:title/]...</a>
+									</li>
+									{/dede:list}
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		{dede:include filename="footer2.htm"/}
+		<script src="{dede:global.cfg_templets_skin/}/style/layui.js"></script>
+		<script src="{dede:global.cfg_templets_skin/}/style/gloable"></script>
+
+		<script>
+			NProgress.start();
+		</script>
+
+		<script src="{dede:global.cfg_templets_skin/}/style/blog"></script>
+
+		<script src="{dede:global.cfg_templets_skin/}/style/article"></script>
+
+		<script>
+			window.onload = function() {
+				NProgress.done();
+			};
+			(function() {
+				var bp = document.createElement('script');
+				var curProtocol = window.location.protocol.split(':')[0];
+				if(curProtocol === 'https') {
+					bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+				} else {
+					bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+				}
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(bp, s);
+			})();
+		</script>
+
+		<ul class="layui-fixbar">
+			<li class="layui-icon layui-fixbar-top" lay-type="top" style=""></li>
+		</ul>
+	</body>
+
+</html>

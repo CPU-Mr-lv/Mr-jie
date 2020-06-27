@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" class="btn layui-btn layui-btn-normal">About Me</a>
